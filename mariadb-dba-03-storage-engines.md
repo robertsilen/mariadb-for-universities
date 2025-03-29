@@ -87,6 +87,8 @@ Optimize for a wide variety of workloads with a single database platform
 - Reliable crash recovery
 - Typically faster overall performance
 
+![mariadb-dba-03-09.svg](mariadb-dba-03-09.svg)
+
 ## LESSON SUMMARY
 
 - List the available storage engines in `MariaDB Enterprise Server`, and explain their use cases
