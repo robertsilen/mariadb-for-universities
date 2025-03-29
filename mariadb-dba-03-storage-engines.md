@@ -46,10 +46,8 @@ Optimize for a wide variety of workloads with a single database platform
 |----------------|------------------------|---------------------------|----------------------------------|-------------------------|------------------------|
 | **Target**     | Read-Heavy             | Mixed Read/Write          | Analytics                        | Federation              | Write-Heavy            |
 | **Added**      | ES 10.2+               | ES 10.4+                  | ES 10.2+                         | ES 10.3+                | ES 10.3+               |
-| **Optimizes**  | Used by ES for System  | General Purpose           | Primary Option for               | Sharding, Interlink     | I/O Reduction, SSD     |
-|                | Tables                 | Mixed read/writes         | Analytics, Mixed loads           |                         |                        |
-| **Replaces**   | Not recommended,       | MySQL, SQL Server,        | RedShift, Vertica,               | ETL tools in many       | Cassandra, HBase, etc. |
-|                | internal use by ES     | Oracle, etc.              | Snowflake, etc.                  | cases                   |                        |
+| **Optimizes**  | Used by ES for System Tables | General Purpose Mixed read/writes| Primary Option for Analytics, Mixed loads | Sharding, Interlink     | I/O Reduction, SSD     |
+| **Replaces**   | Not recommended, internal use by ES | MySQL, SQL Server, Oracle, etc. | RedShift, Vertica, Snowflake, etc. | ETL tools in many cases | Cassandra, HBase, etc. |
 
 # ARIA
 
